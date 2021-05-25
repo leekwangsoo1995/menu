@@ -26,10 +26,21 @@ class MyHomePage extends StatelessWidget {
       ),
       body:ListView(
           children: <Widget>[
-
-            Text("hello"),
-            Text("hello2"),
-            Text("hello3"),
+            Card(
+              child:ListTile(
+                title:Text("hello")
+              )
+            ),
+            Card(
+                child:ListTile(
+                    title:Text("hello2")
+                )
+            ),
+            Card(
+                child:ListTile(
+                    title:Text("hello3")
+                )
+            ),
           ],
 
       ),
